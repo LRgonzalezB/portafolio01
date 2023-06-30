@@ -1,0 +1,64 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__section__title{
+    text-align: center;
+}
+
+.experience__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience__info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.experience__botao--demo{
+    width: 6rem;
+    height: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 0.5rem;
+    background: #2A7AE4;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 1.2s all;
+    cursor: pointer;
+}
+
+.experience__botao--demo:hover{
+    background: #75a0d8;
+    transform: scale(1.1);
+}
+
+.experiencia__botao--repo{
+    width: 6rem;
+    height: 3rem;
+    font-weight: bold;
+    color: white;
+    background: #2A7AE4;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 1.2s all;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:hover{
+    background: #75a0d8;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .experience__box{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

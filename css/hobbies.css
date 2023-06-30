@@ -1,0 +1,23 @@
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies__box:hover .hobbies__img{
+    -webkit-transform: scaleX(1.1);
+    transform:scale(1.1);
+}
+
+.hobbies__box{
+    overflow:hidden;
+    margin: 1rem;
+    padding: 1rem;
+    background: #ffffff;
+    width: 8rem;
+}

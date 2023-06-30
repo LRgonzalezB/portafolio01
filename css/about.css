@@ -1,0 +1,6 @@
+.about__container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2.5rem 2.5rem;
+    background: #eaf2fd;
+}

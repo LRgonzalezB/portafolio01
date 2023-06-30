@@ -1,0 +1,31 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skills__box:hover .skills__img{
+    -webkit-transform: scaleX(1.1);
+    transform:scale(1.1);
+}
+
+.skills__box{
+    overflow:hidden;
+    margin: 1rem;
+    padding: 1rem;
+    background: #ffffff;
+    width: 8rem;
+}
+
+@media screen and (min-width:768px) {
+    .skills__line{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
