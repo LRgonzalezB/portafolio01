@@ -20,6 +20,8 @@
     margin-left: 1rem;
 }
 
+
+
 .experience__botao--demo{
     width: 6rem;
     height: 3rem;
@@ -61,4 +63,10 @@
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width:425px) {
+    .experience__box{
+        width: 100%;
+    }
 }

@@ -29,3 +29,10 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width:425px) {
+    .skills__line{
+        display: flex;
+        flex-direction: column;
+    }
+}
