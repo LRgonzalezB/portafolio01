@@ -4,6 +4,8 @@
 
 .title__div{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .title__container{
@@ -14,7 +16,6 @@
     max-width: 15.4rem;
     max-height: 15rem;
     border-radius: 90%;
-    margin: 0 0 0 8rem;
 }
 
 .title__network{
